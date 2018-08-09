@@ -79,8 +79,8 @@ app.get('/img', function (req, res) {
 		var FTPS=require('ftps');
 		var ftps = new FTPS({
 			host:'excite.postech.ac.kr',
-			username:'ghjeong12',
-			password:'Februar2s',
+			username:'test_user',		// THIS SHUOLD BE CHANGED
+			password:'test_password',	// THIS SHOULD BE CHANGED
 			protocol: 'sftp',
 			port:22
 		});
@@ -120,8 +120,8 @@ function click(err, state){
 					var FTPS=require('ftps');
 					var ftps = new FTPS({
 			host:'excite.postech.ac.kr',
-			username:'ghjeong12',
-			password:'Februar2s',
+			username:'test_user',		// THIS SHUOLD BE CHANGED
+			password:'test_password',	// THIS SHOULD BE CHANGED
 			protocol: 'sftp',
 						port:22
 					});
